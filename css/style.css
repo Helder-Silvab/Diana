@@ -12,6 +12,10 @@ body {
   user-select: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
@@ -189,6 +193,18 @@ body {
   vertical-align: middle;
   height: 70px;
   line-height: 70px;
+}
+
+.height180 {
+  vertical-align: middle;
+  height: 180px;
+  line-height: 180px;
+}
+
+.height450 {
+  vertical-align: middle;
+  height: 450px;
+  line-height: 450px;
 }
 
 .height500 {
