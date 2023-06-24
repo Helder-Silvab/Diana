@@ -167,6 +167,10 @@ a {
   width: 150px;
 }
 
+.width270 {
+  width: 270px;
+}
+
 .width300 {
   width: 300px;
 }
@@ -203,6 +207,12 @@ a {
   vertical-align: middle;
   height: 180px;
   line-height: 180px;
+}
+
+.height250 {
+  vertical-align: middle;
+  height: 250px;
+  line-height: 250px;
 }
 
 .height450 {
@@ -250,6 +260,10 @@ a {
   margin-left: 10px;
 }
 
+.margin-left-20 {
+  margin-left: 20px;
+}
+
 .margin-left-50 {
   margin-left: 50px;
 }
@@ -276,4 +290,8 @@ a {
 
 .text-underline {
   text-decoration: underline;
+}
+
+.background-norepeat {
+  background-repeat: no-repeat;
 }
