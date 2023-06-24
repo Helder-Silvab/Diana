@@ -68,6 +68,10 @@ a {
   font-size: 36px;
 }
 
+.label-size-40 {
+  font-size: 40px;
+}
+
 .colorOrange {
   background-color: #f1a944;
 }
@@ -211,6 +215,11 @@ a {
   vertical-align: middle;
   height: 520px;
   line-height: 520px;
+}
+
+.height-reset {
+  vertical-align: baseline !important;
+  line-height: normal !important;
 }
 
 .margin-top-10 {
