@@ -250,6 +250,10 @@ a {
   margin-left: 10px;
 }
 
+.margin-left-50 {
+  margin-left: 50px;
+}
+
 .margin-right-10 {
   margin-right: 10px;
 }
@@ -264,4 +268,12 @@ a {
 
 .border-top-orange {
   border-top: 1px solid #f1a944;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.text-underline {
+  text-decoration: underline;
 }
