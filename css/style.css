@@ -227,6 +227,12 @@ a {
   line-height: 520px;
 }
 
+.height750 {
+  vertical-align: middle;
+  height: 750px;
+  line-height: 750px;
+}
+
 .height-reset {
   vertical-align: baseline !important;
   line-height: normal !important;
@@ -250,6 +256,10 @@ a {
 
 .margin-top-100 {
   margin-top: 100px;
+}
+
+.margin-top-200 {
+  margin-top: 200px;
 }
 
 .margin-top-150 {
