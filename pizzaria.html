@@ -49,10 +49,80 @@
             </div>
           </div>
         </div>
+        <div class="grid-1-1 grid-flex margin-top-100">
+          <div
+            class="width24 height24 icon-size-24 icon-align-center seta margin-top-10"></div>
+          <div
+            class="grid-1-1 align-center labelColorBlack label-weight-Extrabold label-size-30">
+            Sapori D´ Itália
+          </div>
+        </div>
+        <!-- <div class="grid-1-1 height500 margin-top-20">
+          <div class="box box1">
+            <img src="img/pizzaria.png" alt="livro" />
+          </div>
+        </div> -->
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 4</div>
+            <img src="img/pizzaria.png" style="width: 100%" />
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 4</div>
+            <img src="img/pizzariaCarrosel1.jpg" style="width: 100%" />
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 4</div>
+            <img src="img/pizzariaCarrosel2.jpg" style="width: 100%" />
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">4 / 4</div>
+            <img src="img/pizzariaCarrosel4.jpg" style="width: 100%" />
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">❮</a>
+          <a class="next" onclick="plusSlides(1)">❯</a>
+        </div>
+        <br />
       </div>
       <div class="grid-1-1"></div>
     </div>
-    <div class="grid-1-1 border-top-orange height70">
+    <div class="grid">
+      <div class="grid-1-1"></div>
+      <div class="grid-1-1">
+        <div
+          class="grid-1-1 align-left labelColorBlack label-weight-Extrabold label-size-20">
+          Identidade Visual
+        </div>
+        <div class="grid-1-1 grid-flex margin-top-20">
+          <div class="grid-1-1 labelColorBlack label-size-16">
+            O projeto consistiu em desenvolver um logotipo para uma pizzaria e
+            aplicá-lo em diversos suportes, a fim de promover uma identidade
+            visual consistente e reconhecível para a marca. Para começar, foi
+            realizada uma pesquisa de mercado para analisar a concorrência e
+            identificar as tendências do setor. Com base nisso, foram criadas
+            algumas ideias iniciais para o logotipo, levando em consideração a
+            utilização de elementos relacionados à pizza, como fatias,
+            ingredientes, formas de pizza etc.
+          </div>
+          <div class="grid-1-1 labelColorBlack label-size-16 margin-left-20">
+            Após diversas rodadas de feedback e ajustes, o logotipo final foi
+            definido, com um estilo moderno e tipografia limpa. Ele foi criado
+            em diferentes formatos e cores, incluindo uma versão para aplicação
+            em fundo escuro. Com o logotipo pronto, foi hora de aplicá-lo em
+            diversos suportes, como cartões de visita, flyers, menus, embalagens
+            de pizza e uniformes dos funcionários. A ideia era garantir que a
+            marca ficasse presente em todos os pontos de contato com o cliente,
+            reforçando a identidade visual e a memória da marca.
+          </div>
+        </div>
+      </div>
+      <div class="grid-1-1"></div>
+    </div>
+    <div class="grid-1-1 border-top-orange height70 margin-top-50">
       <div class="grid">
         <div class="grid-1-1"></div>
         <div class="grid-1-1">
@@ -75,5 +145,37 @@
         <div class="grid-1-1"></div>
       </div>
     </div>
+    <script>
+      let slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides((slideIndex += n));
+      }
+
+      function currentSlide(n) {
+        showSlides((slideIndex = n));
+      }
+
+      function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = slides.length;
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+      }
+    </script>
   </body>
 </html>
