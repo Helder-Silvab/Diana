@@ -476,3 +476,7 @@ a {
     opacity: 1;
   }
 }
+
+.hoverContactos:hover {
+  background-color: #3d2665;
+}
