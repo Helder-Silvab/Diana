@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/img.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet" />
+    <title>Diana Soares</title>
+  </head>
+  <body>
+    <div class="gridwithVH">
+      <div class="grid-1-1"></div>
+      <div class="grid-1-1">
+        <div class="grid-1-1 grid-flex height70 margin-top-10">
+          <a href="index.html">
+            <div
+              class="logo icon-size-50 icon-align-center width50 height50 margin-top-10"></div>
+          </a>
+          <div class="width150 margin-left-10">Diana Soares</div>
+          <div class="grid-flex-grow"></div>
+          <a href="index.html">
+            <div class="width150">
+              <div
+                class="label-size-16 labelColorBlack label-weight-medium cursor-pointer">
+                Home
+              </div>
+            </div>
+          </a>
+          <a href="portfolio.html">
+            <div class="width150">
+              <div
+                class="label-size-16 labelColorOrange cursor-pointer hoverText">
+                Portfolio
+              </div>
+            </div>
+          </a>
+          <a href="about.html"
+            ><div class="width150">
+              <div
+                class="label-size-16 labelColorBlack cursor-pointer hoverText">
+                Sobre Mim
+              </div>
+            </div></a
+          >
+          <div class="width150">
+            <div
+              class="label-size-16 labelColorWhite cursor-pointer colorOrange hoverContactos align-center border-radius-20 height40 margin-top-15">
+              Contactos
+            </div>
+          </div>
+        </div>
+        <div class="grid-1-1 grid-flex margin-top-100">
+          <a href="portfolio.html">
+            <div
+              class="width24 height24 icon-size-24 icon-align-center seta margin-top-10 cursor-pointer"></div>
+          </a>
+          <div
+            class="grid-1-1 align-center labelColorBlack label-weight-Extrabold label-size-30">
+            Sheigo Fukuda
+          </div>
+        </div>
+        <!-- <div class="grid-1-1 height500 margin-top-20">
+          <div class="box box1">
+            <img src="img/pizzaria.png" alt="livro" />
+          </div>
+        </div> -->
+        <div class="margin-top-100">
+          <div class="slideshow-container">
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 2</div>
+              <img src="img/shiego.jpg" style="width: 100%" />
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 2</div>
+              <img src="img/bannerShiego.jpg" style="width: 100%" />
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+          </div>
+        </div>
+      </div>
+      <div class="grid-1-1"></div>
+    </div>
+    <div class="grid">
+      <div class="grid-1-1"></div>
+      <div class="grid-1-1">
+        <div
+          class="grid-1-1 align-left labelColorBlack label-weight-Extrabold label-size-20 margin-top-100">
+          Poster
+        </div>
+        <div class="grid-1-1 grid-flex margin-top-20">
+          <div class="grid-1-1 labelColorBlack label-size-16">
+            O projeto envolveu pesquisa detalhada sobre a vida e obra do
+            artista, suas principais influências e técnicas de design. Para
+            começar, revisei uma série de trabalhos do artista e observei seus
+            estilos de design e paletas de cores. Depois de selecionar as obras
+            que mais me impressionaram, comecei a reunir informações biográficas
+            sobre Fukuda para incluir no poster, como sua formação, prêmios e
+            conquistas.
+          </div>
+          <div class="grid-1-1 labelColorBlack label-size-16 margin-left-20">
+            Com base nessas informações, comecei a trabalhar nas ideias de
+            design do poster. Eu queria criar um design único e impressionante
+            que pudesse capturar a essência do trabalho de Fukuda e transmitir
+            sua mensagem. A paleta de cores e os elementos visuais precisavam
+            ser cuidadosamente selecionados para criar um equilíbrio visual
+            atraente.
+          </div>
+        </div>
+      </div>
+      <div class="grid-1-1"></div>
+    </div>
+    <div class="grid-1-1 border-top-orange height70 margin-top-50">
+      <div class="grid">
+        <div class="grid-1-1"></div>
+        <div class="grid-1-1">
+          <div class="grid-1-1 grid-flex">
+            <div
+              class="grid-1-1 labelColorOrange label-size-16 label-weight-medium">
+              dianamsoares08@gmail.com
+            </div>
+            <div class="grid-flex-grow"></div>
+            <div
+              class="facebook icon-size-30 icon-align-center width30 height30 cursor-pointer margin-top-20"></div>
+            <div
+              class="behance icon-size-30 icon-align-center width30 height30 cursor-pointer margin-top-20 margin-left-10"></div>
+            <div
+              class="linkedin icon-size-30 icon-align-center width30 height30 cursor-pointer margin-top-20 margin-left-10"></div>
+            <div
+              class="instagram icon-size-30 icon-align-center width30 height30 cursor-pointer margin-top-20 margin-left-10"></div>
+          </div>
+        </div>
+        <div class="grid-1-1"></div>
+      </div>
+    </div>
+    <script>
+      let slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides((slideIndex += n));
+      }
+
+      function currentSlide(n) {
+        showSlides((slideIndex = n));
+      }
+
+      function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = slides.length;
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+      }
+    </script>
+  </body>
+</html>
