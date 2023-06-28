@@ -581,6 +581,15 @@ a {
     height: 100vh;
   }
 
+  .height80-SE {
+    height: 80px;
+    line-height: 80px;
+  }
+
+  .border-radius-40-SE {
+    border-radius: 40px;
+  }
+
   .display-none-SE {
     display: block;
   }
@@ -615,6 +624,10 @@ a {
 
   .width-50--SE {
     width: 50%;
+  }
+
+  .width-300-SE {
+    width: 300px;
   }
 
   .gridwithVH {
