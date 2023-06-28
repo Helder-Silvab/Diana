@@ -577,6 +577,10 @@ a {
     overflow-x: hidden;
   }
 
+  .height-100VH-SE {
+    height: 100vh;
+  }
+
   .display-none-SE {
     display: block;
   }
