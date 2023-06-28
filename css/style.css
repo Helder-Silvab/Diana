@@ -536,6 +536,10 @@ a {
     margin-top: 20px;
   }
 
+  .margin-top-70-SE {
+    margin-top: 70px;
+  }
+
   .margin-left-40-SE {
     margin-left: 40px;
   }
@@ -549,6 +553,10 @@ a {
     height: 100%;
     display: grid;
     grid-template-columns: 1fr 100% 1fr;
+  }
+
+  .label-size-20-SE {
+    font-size: 20px;
   }
 
   .label-size-25-SE {
