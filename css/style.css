@@ -543,12 +543,16 @@ a {
     grid-template-columns: 100%;
   }
 
-  .label-size-70-SE {
-    font-size: 70px;
+  .label-size-25-SE {
+    font-size: 25px;
   }
 
-  .label-size-30 {
-    font-size: 30px;
+  .label-size-40-SE {
+    font-size: 40px;
+  }
+
+  .label-size-70-SE {
+    font-size: 70px;
   }
 
   .label-size-36 {
