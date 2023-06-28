@@ -586,6 +586,11 @@ a {
     line-height: 80px;
   }
 
+  .height120-SE {
+    height: 120px;
+    line-height: 120px;
+  }
+
   .border-radius-40-SE {
     border-radius: 40px;
   }
@@ -608,6 +613,14 @@ a {
 
   .margin-top-70-SE {
     margin-top: 70px;
+  }
+
+  .margin-top-170-SE {
+    margin-top: 170px;
+  }
+
+  .margin-top-350-SE {
+    margin-top: 350px;
   }
 
   .margin-left-40-SE {
