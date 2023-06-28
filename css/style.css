@@ -200,6 +200,10 @@ a {
   width: 50px;
 }
 
+.width80 {
+  width: 80px;
+}
+
 .width100 {
   width: 100px;
 }
@@ -248,6 +252,11 @@ a {
   line-height: 50px;
 }
 
+.height80 {
+  vertical-align: middle;
+  height: 80px;
+  line-height: 80px;
+}
 .height70 {
   vertical-align: middle;
   height: 70px;
