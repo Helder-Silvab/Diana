@@ -307,6 +307,10 @@ a {
   margin-left: 50px;
 }
 
+.margin-left-300 {
+  margin-left: 300px;
+}
+
 .margin-right-10 {
   margin-right: 10px;
 }
@@ -549,5 +553,9 @@ a {
 
   .label-size-36 {
     font-size: 60px;
+  }
+
+  .align-center-SE {
+    text-align: center;
   }
 }
