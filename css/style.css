@@ -13,7 +13,7 @@ body {
 }
 
 a {
-  text-decoration: none;
+  all: unset;
 }
 
 .cursor-pointer {
@@ -299,12 +299,20 @@ a {
   margin-left: 20px;
 }
 
+.margin-left-40 {
+  margin-left: 40px;
+}
+
 .margin-left-50 {
   margin-left: 50px;
 }
 
 .margin-right-10 {
   margin-right: 10px;
+}
+
+.margin-right-40 {
+  margin-right: 40px;
 }
 
 .border-radius-20 {
@@ -479,4 +487,67 @@ a {
 
 .hoverContactos:hover {
   background-color: #3d2665;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.display-none-SE {
+  display: none;
+}
+
+.height100percent {
+  height: 100%;
+}
+
+.zindex998 {
+  z-index: 998;
+}
+
+#myNav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  .display-none-SE {
+    display: block;
+  }
+
+  .display-block-SE {
+    display: block;
+  }
+
+  .display-no {
+    display: none;
+  }
+
+  .margin-top-20-SE {
+    margin-top: 20px;
+  }
+
+  .margin-left-40-SE {
+    margin-left: 40px;
+  }
+
+  .gridwithVH {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1024px 1fr;
+  }
+
+  .label-size-70-SE {
+    font-size: 70px;
+  }
+
+  .label-size-30 {
+    font-size: 30px;
+  }
+
+  .label-size-36 {
+    font-size: 60px;
+  }
 }

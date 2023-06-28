@@ -9,11 +9,19 @@
       rel="stylesheet" />
     <title>Diana Soares</title>
   </head>
+    <script>
+    function openNav() {
+      document.getElementById("myNav").style = "display: block;";
+    }
+    function closeNav() {
+      document.getElementById("myNav").style = "display: none;";
+    }
+  </script>
   <body>
     <div class="grid">
       <div class="grid-1-1"></div>
       <div class="grid-1-1">
-        <div class="grid-1-1 grid-flex height70 margin-top-10">
+        <div class="grid-1-1 grid-flex height70 margin-top-10  display-no">
           <a href="index.html">
             <div
               class="logo icon-size-50 icon-align-center width50 height50 margin-top-10"></div>
@@ -52,6 +60,59 @@
               </div>
             </div>
           </a>
+        </div>
+        <div
+          id="myNav"
+          class="grid-1-1 height100percent colorPurple zindex998"
+          style="display: none">
+          <div class="grid-1-1 grid-flex">
+            <div class="grid-flex-grow"></div>
+            <div class="width50 height50 margin-top-20 margin-right-40">
+              <div class="box box1">
+                <img
+                  src="img/close.png"
+                  alt="livro"
+                  class="border-radius-20"
+                  onclick="closeNav()" />
+              </div>
+            </div>
+          </div>
+          <div class="grid-1-1 margin-top-10">
+            <div
+              class="grid-1-1 labelColorWhite label-size-20 label-weight-bold align-center hoverHeader cursor-pointer margin-top-20 label-size-70-SE">
+              <a href="index.html"> Home </a>
+            </div>
+            <div
+              class="grid-1-1 labelColorWhite label-size-20 label-weight-bold align-center hoverHeader cursor-pointer margin-top-20 label-size-70-SE">
+              <a href="portfolio.html"> Portfolio </a>
+            </div>
+            <div
+              class="grid-1-1 labelColorWhite label-size-20 label-weight-bold align-center hoverHeader cursor-pointer margin-top-20 label-size-70-SE">
+              <a href="about.html"> Sobre Mim </a>
+            </div>
+            <div
+              class="grid-1-1 labelColorWhite label-size-20 label-weight-bold align-center hoverHeader cursor-pointer margin-top-20 label-size-70-SE">
+              <a href="contacto.html"> Contactos </a>
+            </div>
+          </div>
+        </div>
+        <div class="display-none-SE">
+          <div class="grid-1-1 grid-flex">
+            <a href="index.html">
+              <div
+                class="logo icon-size-50 icon-align-center width50 height50 margin-top-10 margin-left-40"></div>
+            </a>
+            <div
+              class="width300 height50 label-size-30 margin-left-10 margin-top-10">
+              Diana Soares
+            </div>
+            <div class="grid-flex-grow"></div>
+            <div class="width50 height50 margin-top-20 margin-right-40">
+              <div class="box box1">
+                <img src="img/hamburger.png" alt="livro" onclick="openNav()" />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div class="grid-1-1 margin-top-100"></div>
