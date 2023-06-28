@@ -601,6 +601,14 @@ a {
     margin-left: 40px;
   }
 
+  .margin-left-300-SE {
+    margin-left: 300px;
+  }
+
+  .margin-left-400-SE {
+    margin-left: 400px;
+  }
+
   .width-50--SE {
     width: 50%;
   }
@@ -634,5 +642,13 @@ a {
 
   .align-center-SE {
     text-align: center;
+  }
+
+  .height1400-SE {
+    height: 1400px;
+  }
+
+  .padding-top-100-SE {
+    padding-top: 100px;
   }
 }
