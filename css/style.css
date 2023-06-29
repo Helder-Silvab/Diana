@@ -631,6 +631,10 @@ a {
     margin-left: 0px;
   }
 
+  .margin-left-20-SE {
+    margin-left: 20px;
+  }
+
   .margin-left-40-SE {
     margin-left: 40px;
   }
@@ -649,6 +653,10 @@ a {
 
   .margin-left-400-SE {
     margin-left: 400px;
+  }
+
+  .margin-right-20-SE {
+    margin-right: 20px;
   }
 
   .width-50--SE {
