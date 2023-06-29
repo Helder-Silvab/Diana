@@ -659,6 +659,14 @@ a {
     width: 75%;
   }
 
+  .width-95--SE {
+    width: 95%;
+  }
+
+  .width-104--SE {
+    width: 104%;
+  }
+
   .width-300-SE {
     width: 300px;
   }
