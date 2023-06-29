@@ -631,6 +631,10 @@ a {
     margin-left: 40px;
   }
 
+  .margin-left-150-SE {
+    margin-left: 150px;
+  }
+
   .margin-left-300-SE {
     margin-left: 300px;
   }
@@ -645,6 +649,10 @@ a {
 
   .width-50--SE {
     width: 50%;
+  }
+
+  .width-75--SE {
+    width: 75%;
   }
 
   .width-300-SE {
