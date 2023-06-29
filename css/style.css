@@ -591,6 +591,10 @@ a {
     line-height: 120px;
   }
 
+  .height500-SE {
+    height: 500px;
+  }
+
   .border-radius-40-SE {
     border-radius: 40px;
   }
